@@ -14,4 +14,3 @@ function addstring(){
 }
 
 add_action('admin_footer','addstring');
-?>
