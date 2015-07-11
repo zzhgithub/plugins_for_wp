@@ -9,5 +9,9 @@ Author URI:
 License: test
 Text Domain: test
 */
-echo "test is funny";
+function addstring(){
+	echo "test is funny";
+}
+
+add_action('admin_footer','addstring');
 ?>
