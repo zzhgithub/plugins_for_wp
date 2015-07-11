@@ -14,3 +14,5 @@ function addstring(){
 }
 
 add_action('admin_footer','addstring');
+add_action('wp_uploaded','addstring');
+?>
