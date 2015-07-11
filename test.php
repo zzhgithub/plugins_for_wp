@@ -9,5 +9,5 @@ Author URI:
 License: test
 Text Domain: test
 */
-echo "test is funny!";
+echo "test is funny";
 ?>
