@@ -22,8 +22,13 @@ function add_css(){
 function add_string(){
 	echo "<p id='a'>test is funny</p>";
 }
-
-add_action('admin_footer','add_string');
+function findname($name){
+	$name();
+}
+function test(){
+	findname('add_string');
+}
+add_action('admin_footer','test');
 add_action('admin_footer','add_css');
 //add_action('wp_uploaded','addstring');
 //add_action('admin_head','add_string');
