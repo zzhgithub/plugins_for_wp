@@ -23,7 +23,7 @@ function add_string(){
 }
 
 add_action('admin_footer','add_string');
-add_cation('admin_footer','add_css');
+add_action('admin_footer','add_css');
 //add_action('wp_uploaded','addstring');
 //add_action('admin_head','add_string');
 ?>
