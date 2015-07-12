@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: test
-Plugin URI: 
+Plugin URI: http://www.baidu.com
 Description: test a new plugins
 Version: 0.0.1
 Author: zzh
-Author URI: 
+Author URI: http://www.baidu.com
 License: test
 Text Domain: test
 */
@@ -15,6 +15,7 @@ function add_css(){
 	position:absolute;
 	left: 0;
 	top:  0;
+	color: red;
 }
 	</style>";
 }
