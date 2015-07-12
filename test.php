@@ -9,14 +9,14 @@ Author URI: http://www.baidu.com
 License: test
 Text Domain: test
 */
-require_once(dirname(_FILE_)."/includes/adminUI.php");
+require_once(plugin_dir_path( __FILE__ ).'\includes\adminUI.php');
 function add_css(){
 	echo "<style>
 	#a{
 	position:absolute;
 	left: 0;
 	top:  0;
-	color: red;
+	color: ".get_option('color').";
 }
 	</style>";
 }
@@ -30,7 +30,7 @@ function test(){
 	findname('add_string');
 }
 add_action('admin_footer','test');
-//add_action('admin_footer','add_css');
+add_action('admin_footer','add_css');
 //add_action('wp_uploaded','addstring');
 //add_action('admin_head','add_string');
 ?>
