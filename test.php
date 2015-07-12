@@ -9,7 +9,7 @@ Author URI: http://www.baidu.com
 License: test
 Text Domain: test
 */
-require_once(dirname(_FILE_).'/includes/adminUI.php');
+require_once(dirname(_FILE_)."/includes/adminUI.php");
 function add_css(){
 	echo "<style>
 	#a{
