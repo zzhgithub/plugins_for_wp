@@ -9,10 +9,11 @@ Author URI:
 License: test
 Text Domain: test
 */
-function addstring(){
+function add_string(){
 	echo "test is funny";
 }
 
-add_action('admin_footer','addstring');
-add_action('wp_uploaded','addstring');
+add_action('admin_footer','add_string');
+//add_action('wp_uploaded','addstring');
+//add_action('admin_head','add_string');
 ?>
