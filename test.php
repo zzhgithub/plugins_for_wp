@@ -29,7 +29,7 @@ function test(){
 	findname('add_string');
 }
 add_action('admin_footer','test');
-add_action('admin_footer','add_css');
+//add_action('admin_footer','add_css');
 //add_action('wp_uploaded','addstring');
 //add_action('admin_head','add_string');
 ?>
